@@ -1,3 +1,40 @@
 <resources>
     <string name="app_name">TabsNavigationAndroid - Activity</string>
+    <!-- Friend Fragment -->
+    <string name="tabFriends">Friend List:</string>
+    <string name="user_name">FRIEND NAME</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <!-- Interest Fragment -->
+    <string name="tabInterests">Top Interests:</string>
+    <string name="ntrst_manga">Manga</string>
+    <string name="ntrst_anime">Anime</string>
+    <string name="kingdom">Kingdom</string>
+
+    <string name="ntrst_manhwa">Manhwa</string>
+    <string name="overgeared">Overgeared</string>
+
+    <string name="ntrst_manhua">Manhua</string>
+    <string name="soulland">Soul Land</string>
+
+    <string name="ntrst_game">Game</string>
+    <string name="arcraiders">Arc Raiders</string>
+
+    <string name="ntrst_movie">Movie</string>
+    <string name="avatar">Avatar 3: Fire and Ash</string>
+
+    <string name="ntrst_drama">Drama</string>
+    <string name="cdrama">Love Scenery</string>
+    <!-- Exercise Fragment -->
+    <string name="tabExercises">Exercise Routine:</string>
+    <string name="pushDay">Push Days</string>
+    <string name="monthur">Monday, Thursday</string>
+    <string name="pullDay">Pull Days</string>
+    <string name="tuesfri">Tuesday, Friday</string>
+    <string name="legDay">Leg Days</string>
+    <string name="wed">Wednesday</string>
+    <string name="restDay">Rest Days</string>
+    <string name="satsun">Saturday, Sunday</string>
+
+
 </resources>

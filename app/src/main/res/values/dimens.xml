@@ -15,5 +15,6 @@
 
     <dimen name="tiny_icon">25dp</dimen>
     <dimen name="small_icon">50dp</dimen>
+    <dimen name="small_icon2">100dp</dimen>
     <dimen name="normal_icon">150dp</dimen>
 </resources>

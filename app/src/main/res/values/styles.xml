@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="tabLabels" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/big_text</item>
+    </style>
+    <style name="textLabels" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="contentLabel" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/medium_text</item>
+    </style>
+</resources>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExerciseFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tabExercises"
+            style="@style/tabLabels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tabExercises"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <ImageView
+            android:id="@+id/exerciseIMG1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/exercise_push"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tabExercises"
+            android:contentDescription="@string/pushDay"/>
+
+        <TextView
+            android:id="@+id/exerciseType1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pushDay"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/exerciseIMG1"
+            style="@style/textLabels"
+            android:layout_marginTop="@dimen/normal_space"/>
+
+        <TextView
+            android:id="@+id/exerciseDays1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/monthur"
+            style="@style/contentLabel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/exerciseType1"
+            android:layout_marginTop="@dimen/normal_space"/>
+
+        <ImageView
+            android:id="@+id/exerciseIMG2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/exercise_pull"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/exerciseDays1"
+            android:layout_marginTop="@dimen/big_space2"
+            android:contentDescription="@string/pullDay"/>
+
+        <TextView
+            android:id="@+id/exerciseType2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pullDay"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/exerciseIMG2"
+            style="@style/textLabels"
+            android:layout_marginTop="@dimen/normal_space"/>
+
+        <TextView
+            android:id="@+id/exerciseDays2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tuesfri"
+            style="@style/contentLabel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/exerciseType2"
+            android:layout_marginTop="@dimen/normal_space"/>
+
+        <ImageView
+            android:id="@+id/exerciseIMG3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/exercise_leg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/exerciseDays2"
+            android:layout_marginTop="@dimen/big_space2"
+            android:contentDescription="@string/legDay"/>
+
+        <TextView
+            android:id="@+id/exerciseType3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/legDay"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/exerciseIMG3"
+            style="@style/textLabels"
+            android:layout_marginTop="@dimen/normal_space"/>
+
+        <TextView
+            android:id="@+id/exerciseDays3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wed"
+            style="@style/contentLabel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/exerciseType3"
+            android:layout_marginTop="@dimen/normal_space"/>
+
+        <ImageView
+            android:id="@+id/exerciseIMG4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/exercise_rest"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/exerciseDays3"
+            android:layout_marginTop="@dimen/big_space2"
+            android:contentDescription="@string/restDay"/>
+
+        <TextView
+            android:id="@+id/exerciseType4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/restDay"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/exerciseIMG4"
+            style="@style/textLabels"
+            android:layout_marginTop="@dimen/normal_space"/>
+
+        <TextView
+            android:id="@+id/exerciseDays4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/satsun"
+            style="@style/contentLabel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/exerciseType4"
+            android:layout_marginTop="@dimen/normal_space"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
